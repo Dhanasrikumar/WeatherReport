@@ -1,0 +1,79 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 120%;
+   animation: image 15s linear infinite;
+}
+@keyframes image {
+    0%{
+        background-image:url(/home/bhuvanesh/dhanasri/weather/images1.jpeg);
+    }
+    25%{
+        background-image: url(/home/bhuvanesh/dhanasri/weather/images.jpeg);
+    }
+    50%{
+        background-image: url(/home/bhuvanesh/dhanasri/weather/sun.jpeg);
+    }
+    75%{
+        background-image: url(/home/bhuvanesh/dhanasri/weather/set.jpeg);
+    }
+    100%{
+        background-image: url(/home/bhuvanesh/dhanasri/weather/images5.jpeg);
+    }
+}
+.card{
+    background: #145e96b1 ;
+    padding:2em;
+    border-radius: 20px;
+color: white;
+    width: 100%;
+    max-width:350px;
+    margin: 1em;
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+input.search-bar{
+   height:20px;
+   border: none;
+   outline: none;
+   padding: 0.4em 1em;
+   border-radius:50px;
+   background: #73b0dfb1;
+   color:rgb(12, 12, 61);
+   font-weight: bold;
+   width: 90%;
+   font-size: 18px;
+}
+button{
+    outline:none;
+    margin: 0.5em;
+    height: 35px;
+    width: 40px;
+    border-radius:50%;
+    border: none;
+    max-height: 3em;
+    background:  #73b0dfb1;
+    color: rgb(13, 73, 86);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+button:hover{
+    background:  #2b5371b1;
+}
+h2 .temp{
+    margin: 0;
+}
+
+
+
+
